@@ -2,7 +2,7 @@
 
 set -xe
 
-clang                                                             \
+clang                                                         \
 	-Wall -Wextra -g -I./build/ -I./raylib/raylib-5.0/src/    \
 	-o ./build/main ./src/main.c                              \
 	./build/raylib/macos/libraylib.a                          \
